@@ -2,11 +2,11 @@
 author = "Chialin Shih"
 title = '新手畫畫路上的學習資源推薦'
 description = "最近將畫畫傳到社群媒體後，陸續得到一些回饋和學習資源，自己也慢慢從網路影片找到對新手來說是個好入門的學習方法，所以也想推薦幾個針對不同層面的相關資訊給有興趣的人。" 
-date = 2023-10-04T14:22:54+08:00
+date = 2023-09-19
 image = 'sketch_day14.jpg'
 tags = ['Learning']
 categories = [ "Info" ]
-draft = true
+draft = false
 +++
 
 ## 探索

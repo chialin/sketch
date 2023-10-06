@@ -6,7 +6,7 @@ date = 2023-08-29
 image = 'drawing.jpeg'
 tags = ['Learning']
 categories = [ "Self-awareness" ]
-draft = true
+draft = false
 +++
 
 
