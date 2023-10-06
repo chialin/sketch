@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://chialin.github.io/sketch/'
 languageCode = 'zh-tw'
 title = 'Lines & Hues: The Canvas of Chialin'
 theme = 'hugo-theme-stack'
