@@ -5,7 +5,7 @@ description = ""
 date = 2023-10-10
 image = 'coffee-cups-hozhi.jpg'
 tags = ['sketch']
-categories = []
+categories = ['色鉛筆']
 draft = false
 +++
 # 內文
