@@ -131,9 +131,9 @@ params:
 
     defaultImage:
         opengraph:
-            enabled: false
+            enabled: true
             local: true
-            src: default.jpg
+            src: sketch-og-image.png
 
     colorScheme:
         # Display toggle
