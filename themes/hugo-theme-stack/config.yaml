@@ -7,7 +7,11 @@ params:
         - posts
     featuredImageField: image
     rssFullContent: true
-    favicon: favicon.ico
+
+    # get apple-touch-icon under assets folder
+    appleTouchIcon: icons/apple-touch-icon.png
+    # get favicon under assets folder
+    favicon:
 
     footer:
         since: 2023
