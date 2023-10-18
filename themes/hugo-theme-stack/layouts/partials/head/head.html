@@ -22,8 +22,15 @@
     <link rel="apple-touch-icon" sizes="180x180" href="{{ (resources.Get .).RelPermalink }}">
 {{ end }}
 
-{{ with .Site.Params.favicon }}
-    <link rel="shortcut icon" href="{{ . }}" />
+{{ with .Site.Params.favicon.favicon32 }}
+<link rel="icon" sizes="32x32" type="image/png" href="{{ (resources.Get .).RelPermalink }}" />
+{{ end }}
+{{ with .Site.Params.favicon.favicon16 }}
+<link rel="icon" sizes="16x16" type="image/png" href="{{ (resources.Get .).RelPermalink }}" />
+{{ end }}
+
+{{ with .Site.Params.favicon.common }}
+    <link rel="shortcut icon" href="{{ (resources.Get .).RelPermalink }}" />
 {{ end }}
 
 {{- template "_internal/google_analytics.html" . -}}

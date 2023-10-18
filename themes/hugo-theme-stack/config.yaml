@@ -12,6 +12,9 @@ params:
     appleTouchIcon: icons/apple-touch-icon.png
     # get favicon under assets folder
     favicon:
+        common: icons/favicon.ico
+        favicon32: icons/favicon-32x32.png
+        favicon16: icons/favicon-16x16.png
 
     footer:
         since: 2023
